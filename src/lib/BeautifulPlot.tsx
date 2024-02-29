@@ -111,8 +111,8 @@ export class BetterPlot extends Node {
 
   private customCreateGraphData(fn: (x: number) => number) {
     let int = 0.01;
-    let from = -15;
-    let to = 15;
+    let from = -20;
+    let to = 20;
 
     let data = [];
 

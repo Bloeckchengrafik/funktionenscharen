@@ -78,6 +78,8 @@ export default makeScene2D(function* (view) {
     annotationParamRef().x(375, 1),
     annotationTexRef().text("Definitionsbereich", 1)
   );
+
+  title().opacity(0);
+
   yield* beginSlide("end.thing");
-  yield* all(annotationParamRef().opacity(0, 1), texRef().opacity(0, 1));
 });
