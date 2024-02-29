@@ -76,7 +76,7 @@ export default makeScene2D(function* (view) {
 
   yield* all(
     annotationParamRef().x(375, 1),
-    annotationTexRef().text("Einschränkungen", 1)
+    annotationTexRef().text("Definitionsbereich", 1)
   );
   yield* beginSlide("end.thing");
   yield* all(annotationParamRef().opacity(0, 1), texRef().opacity(0, 1));
